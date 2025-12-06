@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'controllers/welcome.dart';
-import 'views/dangki.dart';
+import 'views/trangchu.dart';
 
 void main() {
   runApp(const MyApp());

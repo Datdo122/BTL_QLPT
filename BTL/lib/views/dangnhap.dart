@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:btl/views/dangki.dart';
+import 'package:btl/views/trangchu.dart';
 
 // --- Màn hình Đích Giả lập ---
 // Màn hình sẽ được điều hướng đến
@@ -49,7 +50,7 @@ class _LoginScreenState extends State<LoginScreen> {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(
-          builder: (context) => const SimpleDestinationScreen(title: 'Home (Đăng nhập thành công)'),
+          builder: (context) => const HomeScreen(),
         ),
       );
     }
